@@ -10,6 +10,9 @@ el git cuenta con 2 ficheros para usar
 - el script en texto plano "pulse-change.sh"
 
 
+> Probado en Ubuntu 20.04 LTS
+
+
 Detecta 3 tipos de dispositivos
 
 - SALIDA HDMI
