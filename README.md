@@ -28,7 +28,7 @@ cd pulse-change   #use el binario o el script en texto plano.
 sudo cp pulse-change /bin
 
 
-# Tutorial
+# Tutorial Terminal
 
 ```
 Modo de uso: pulse-change [opción]
@@ -42,4 +42,6 @@ default       selecciona dipositivo de salida analogica estereo (atras)
 usb           selecciona dispositivo de salida tarjeta de sonido USB
 
 ```
+# tutorial Acceso Directo
 
+> ver imagen pulse-change-teclado-directo-ubuntu.png para visualizar la configuración
