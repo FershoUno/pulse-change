@@ -1,12 +1,12 @@
 #!/bin/bash
 #FershoUno
-#telegram: @FershoUno
-#github: https://github.com/FershoUno
-#Version: 0.1b
+#Telegram: @FershoUno
+#Github: https://github.com/FershoUno
+#Version: 0.2b
 
 #load devices
 LIST_DEVICE_HDMI=$(pactl list short sinks|grep hdmi)
-LIST_DEVICE_ANALOG_STEREO_BACK=$(pactl list short sinks|grep analog-stereo)
+LIST_DEVICE_ANALOG_STEREO_BACK=$(pactl list short sinks|grep analog-stereo|grep pci)
 LIST_DEVICE_USB_SOUND=$(pactl list short sinks|grep USB)
 
 HDMI_SOUND=$(echo $LIST_DEVICE_HDMI |cut -d " " -f 1)
