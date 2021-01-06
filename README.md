@@ -4,13 +4,16 @@ Script para cambiar el dispositivo de salida (AUDIO) de Ubuntu.
 
 # Descripción
 
-el git cuenta con 2 ficheros para usar
+el git cuenta con 1 fichero para usar
 
-- el script en texto plano "pulse-change.sh"
+- el script en texto plano => "pulse-change.sh"
 
 
-> Probado en Ubuntu 20.04 LTS
+> Probado en las siguientes distribuciones con shell bash
 
+> - Ubuntu 20.04.1 LTS
+> - Void Linux 
+> - EndeavourOS
 
 Detecta 3 tipos de dispositivos
 
