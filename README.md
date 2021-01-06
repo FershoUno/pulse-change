@@ -21,13 +21,16 @@ Detecta 3 tipos de dispositivos
 
 # Instalación 
 
+```
 git clone https://github.com/FershoUno/pulse-change
 
 cd pulse-change   #use el binario o el script en texto plano.
 
-sudo cp pulse-change /bin
+chmod +x pulse-change.sh
 
+sudo cp pulse-change.sh /bin/pulse-change
 
+```
 # Tutorial Terminal
 
 ```
