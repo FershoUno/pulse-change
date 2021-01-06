@@ -6,7 +6,6 @@ Script para cambiar el dispositivo de salida (AUDIO) de Ubuntu.
 
 el git cuenta con 2 ficheros para usar
 
-- el script binario "pulse-change" (compilado)
 - el script en texto plano "pulse-change.sh"
 
 
@@ -24,7 +23,7 @@ Detecta 3 tipos de dispositivos
 ```
 git clone https://github.com/FershoUno/pulse-change
 
-cd pulse-change   #use el binario o el script en texto plano.
+cd pulse-change
 
 chmod +x pulse-change.sh
 
