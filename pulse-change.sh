@@ -33,6 +33,11 @@ then
 	pacmd set-default-sink $USB_SOUND
 fi
 
+if [[ $option == "" ]]
+then
+        echo "ingrese una opción o use help para ver las opciones"
+fi
+
 if [[ $option == "help" ]]
 then
 	echo "Modo de uso: pulse-change [opción]
@@ -46,8 +51,3 @@ usb		selecciona dispositivo de salida tarjeta de sonido USB
 "
 fi
 
-
-if [[ $option == "" ]]
-then
-	echo "ingrese una opción o use help para ver las opciones"
-fi
