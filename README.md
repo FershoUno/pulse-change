@@ -6,12 +6,12 @@ Script para cambiar el dispositivo de salida (AUDIO) de Ubuntu.
 
 el git cuenta con 1 fichero para usar
 
-- el script en texto plano => "pulse-change.sh"
+- el script en texto plano => "pulse-change"
 
 
 > Probado en las siguientes distribuciones con shell bash
 
-> - Ubuntu 20.04.1 LTS
+> - Ubuntu (GNOME)
 > - Void Linux 
 > - EndeavourOS
 
@@ -28,7 +28,7 @@ git clone https://github.com/FershoUno/pulse-change
 
 cd pulse-change
 
-chmod +x pulse-change.sh
+chmod +x pulse-change
 
 sudo cp pulse-change.sh /bin/pulse-change
 
